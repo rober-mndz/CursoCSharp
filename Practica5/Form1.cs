@@ -25,6 +25,7 @@ namespace Practica5
             // Validacion de inputs vacios
             if (ValidarCampos())
             {
+                // Comentario para testear git
                 string nombre = txtNombre.Text;
                 string apellido = txtApellido.Text;
                 int edad = int.Parse(txtEdad.Text);
