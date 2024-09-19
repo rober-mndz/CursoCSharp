@@ -78,5 +78,25 @@ namespace Practica5
         {
             Application.Exit();
         }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+            txtNombre.BackColor = Color.White;
+        }
+
+        private void txtApellido_TextChanged(object sender, EventArgs e)
+        {
+            txtApellido.BackColor = Color.White;
+        }
+
+        private void txtEdad_TextChanged(object sender, EventArgs e)
+        {
+            txtEdad.BackColor = Color.White;
+        }
+
+        private void txtDireccion_TextChanged(object sender, EventArgs e)
+        {
+            txtDireccion.BackColor = Color.White;
+        }
     }
 }
